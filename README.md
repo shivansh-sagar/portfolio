@@ -18,10 +18,11 @@ This application are build using React and different React library
 ![App Screenshot](src/assets/project_scr1.png)
 
 ##language & Tools
-![logo](/src/assets/react.png)
+
 ![logo](/src/assets/html.png)
 ![logo](/src/assets/sass.png)
 ![logo](/src/assets/javascript.png)
+![logo](/src/assets/react.png)
 
 ## Authors
 - [shivanshu](https://github.com/shivansh-sagar)
