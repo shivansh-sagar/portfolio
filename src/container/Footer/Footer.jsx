@@ -1,10 +1,18 @@
 import React from 'react'
 import { images } from '../../constants';
+import './Footer.scss'
+import { Appwrap } from '../../wrapper';
 
 const Footer = () => {
     // const [formData, setformData] = useState({name:'',email:'',message:''})
     // const [isformSubmitted, setisformSubmitted] = useState(false);
     // const [loading, setloading] = useState(false);
+
+    // const {name, email, message} = formData;
+
+    // const handleChangeInput = (e) =>{
+    //     const { name, value} = e.target;
+    // }
     return (
         <>
             <h2 className='head-text'>Take a coffe & chat with me</h2>
@@ -22,23 +30,19 @@ const Footer = () => {
 
 
 
-            {/* <div className="app__footer-form app__flex">
+            <div className="app__footer-form app__flex">
                 <div className="app__flex">
-                    <input className='p-text' type="text" placeholder='Your Name'name='name' value={name} onChange={handleChangeInput} />
+                   <p className='p-text p1'>Made by  💜shivanshu</p>
                 </div>
                 <div className="app__flex">
-                    <input className='p-text' type="email" placeholder='Your Email'name='email' value={email} onChange={handleChangeInput} />
+                    <p className='p-text p2'>
+                        Referance:JSmastery
+                    </p>
                 </div>
-                <div className="">
-                    <textarea className='p-text' name={message} 
-                    value={message}
-                    onChange={handleChangeInput}
-                    />
-                </div>
-                <button type='button' className='p-text'onClick={handleSubmit}>{loading ? 'Sending':'Send Message'}</button>
-            </div> */}
+            </div>   
         </>
     )
 }
 
-export default Footer
+// export default Footer
+export default Appwrap(Footer, 'contact','footer_bg');

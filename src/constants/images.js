@@ -39,10 +39,11 @@ import bot from '../assets/bot.png';
 import dc_heroes from '../assets/dc_heroes.png';
 import shivansh from '../assets/shivansh.png';
 import pass from '../assets/pass.png';
+import texteditor from '../assets/texteditor.png'
 
 
 export default {
-  
+  texteditor,
   shivansh,
   pass,
   dc_heroes,

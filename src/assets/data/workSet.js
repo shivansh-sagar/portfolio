@@ -4,7 +4,7 @@ export const workSet = [
       id: 1,
       name: 'Vue.js_App',
       img: images.pass,
-      description: "demo",
+      description: "This application generate a random password by providing the number of character(digit)",
       url: "https://passworator.netlify.app",
       github:'https://github.com/shivansh-sagar/PasswordGenerator',
       tag: 'PasswordGenerator'
@@ -13,7 +13,7 @@ export const workSet = [
       id: 2,
       name: 'React_App',
       img: images.bot,
-      description: "demoii",
+      description: "This is chatbot made for LocalShopIndia",
       url: "https://lsi-bot.netlify.app",
       github:'https://github.com/shivansh-sagar/LSI_bot',
       tag: 'LSI-Bot'
@@ -22,10 +22,19 @@ export const workSet = [
         id: 3,
         name: 'Vue.js_App',
         img: images.dc_heroes,
-        description: "demoii",
+        description: "This application perform all the CRED operation using only frontend",
         url: "https://dc-heroes.netlify.app/",
         github:'https://github.com/shivansh-sagar/DC-heroes-list',
         tag: 'DC-heroes-list'
+      },
+      {
+        id: 4,
+        name: 'Reactjs_App',
+        img: images.texteditor,
+        description: "Text-form is one stop application to perform various manipulation on your text",
+        url: "https://dc-heroes.netlify.app/",
+        github:'https://github.com/shivansh-sagar/Textform',
+        tag: 'Text-fotm'
       },
     
   ];

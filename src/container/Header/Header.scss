@@ -158,20 +158,20 @@
 }
 .app__header-img {
     flex: 1;
-    border: 1px solid red;
-    width: 40%;
-    height:300px;
+    // border: 1px solid red;
+    // width: 40%;
+    // height:300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    // position: relative;
-    z-index: 1;
+    position: relative;
+    // z-index: 1;
     img{
         width: 100%;
-        height: 100%;
         
-        object-fit: cover;
-        object-position: center;
+        object-fit:contain;
+        z-index: 1;
+        // object-position: center;
         
     }
     .overlay_circle {
@@ -179,7 +179,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-      
+        z-index: 0;
         width: 100%;
         height: 90%;
     }

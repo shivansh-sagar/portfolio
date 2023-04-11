@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import ReactTooltip from 'react-tooltip';
+
 import { Appwrap } from '../../wrapper';
-import { images } from '../../constants';
+
 import './Skills.scss';
 import { skillSet } from '../../assets/data/skillSet';
 import { expSet } from '../../assets/data/expSet';

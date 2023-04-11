@@ -51,7 +51,7 @@ const Work = () => {
                 transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
                 className='app__Work-hover app__flex'
               >
-                <a href={item.url}>
+                <a href={item.url} target='blank'>
                   <motion.div
                   whileInView={{scale:[0,1]}}
                     whileHover={{ scale: [1, 0.9] }}
@@ -60,7 +60,7 @@ const Work = () => {
                       <AiFillEye />
                     </motion.div>
                 </a>
-                <a href={item.github}>
+                <a href={item.github} target='blank'>
                   <motion.div
                   whileInView={{scale:[0,1]}}
                     whileHover={{ scale: [1, 0.9] }}
