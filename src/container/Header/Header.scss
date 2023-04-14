@@ -159,8 +159,8 @@
 .app__header-img {
     flex: 1;
     // border: 1px solid red;
-    // width: 40%;
-    // height:300px;
+    width: 100%;
+    height:90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,8 +168,13 @@
     // z-index: 1;
     img{
         width: 100%;
-        
+        margin-top: 5%;
         object-fit:contain;
+        width: 92%;
+        height: 70%;
+        border-radius: 50%;
+        
+        
         z-index: 1;
         // object-position: center;
         
@@ -181,6 +186,7 @@
         bottom: 0;
         z-index: 0;
         width: 100%;
+        
         height: 90%;
     }
 
